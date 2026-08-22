@@ -16,7 +16,7 @@ Everything on the site that describes a client — cards, comparison tables, sup
 
 Step-by-step recipes — updating an entry, adding a new client, correcting feature data, editing pages — are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Maintainers who want a say in the specification itself — what enters the versioned core profile, which extensions standardize — should read [GOVERNANCE.md](GOVERNANCE.md) and the [standardization process](https://http-files.org/standardization/process/).
+Maintainers who want a say in the specification itself — what a release selects — should read [GOVERNANCE.md](https://github.com/http-files/.github/blob/main/GOVERNANCE.md) and the [standardization process](https://http-files.org/standardization/process/).
 
 ## Repository map
 

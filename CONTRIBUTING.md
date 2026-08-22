@@ -2,7 +2,7 @@
 
 http-files.org is a neutral community reference for the `.http` file format. Every implementation is treated equally — entries describe what a tool does, without ranking or marketing. If you maintain a client, you are the authority on your own entry; corrections and updates are welcome.
 
-Maintainers who want a role in the specification itself — voting on what enters the versioned core profile — should read [GOVERNANCE.md](GOVERNANCE.md) and the [standardization process](https://http-files.org/standardization/process/).
+Maintainers who want a role in the specification itself — voting on what a release selects — should read [GOVERNANCE.md](https://github.com/http-files/.github/blob/main/GOVERNANCE.md) and the [standardization process](https://http-files.org/standardization/process/).
 
 ## The one rule: edit source, never output
 
