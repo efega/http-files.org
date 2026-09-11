@@ -48,3 +48,11 @@ CLI targeting VS Code REST Client compatibility. Supports batch execution of `.h
 {% client-card id="dot-http" /%}
 
 Rust CLI with companion vim plugin.
+
+## Assay CLI
+
+{% client-card id="assay-cli" /%}
+
+Run with `npx assay-http`, or install via npm: `npm install -g assay-http`. Point it at a file or a directory; every request runs in order, sharing the chain store and the cookie session, so a login at the top of a file authenticates the requests below it.
+
+Emits JUnit XML with one `<testcase>` per assertion rather than per request, plus JSON. Exits non-zero when an assertion fails. Values from `http-client.private.env.json` are masked in the output by default. No configuration file and no runtime dependencies. A GitHub Action is available.

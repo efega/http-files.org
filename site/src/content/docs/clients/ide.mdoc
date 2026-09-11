@@ -40,3 +40,13 @@ Built-in since v17.6, significantly enhanced in v17.8+. Uses the JetBrains `http
 **Key strengths**: Azure Key Vault and ASP.NET User Secrets integration, Endpoints Explorer auto-generation, HTTP/3 support, debug link integration.
 
 **Limitations**: No multi-line URLs, no file includes, no multipart form data, no scripting, no GraphQL, no WebSocket/gRPC.
+
+## Assay
+
+{% client-card id="assay" /%}
+
+A VS Code extension focused on testing `.http` files rather than replacing an API client. Assertions are written as `# @assert` comments, which conforming clients ignore, so a file carrying them still parses unchanged in REST Client, JetBrains IDEs and Visual Studio 2022.
+
+**Key strengths**: Assertions on status, timing, size, headers and JSON paths; automatic dependency resolution for chained requests, with cycle detection and a depth limit; cookie sessions; failed assertions underlined in the editor and listed in the Problems panel; values from `http-client.private.env.json` masked in output. A CLI shares the same core.
+
+**Limitations**: No scripting, so expected values cannot be computed. No XPath, no GraphQL, gRPC or WebSocket, no code generation, no cURL import. Cookies set on an intermediate redirect are not captured.

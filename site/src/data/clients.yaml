@@ -62,6 +62,22 @@ clients:
       env format with Microsoft extensions including Azure Key Vault secrets providers.
     icon: vs2022
 
+  assay:
+    name: Assay
+    shortName: Assay
+    author: efega
+    type: ide
+    platform: VS Code
+    language: TypeScript
+    repo: https://github.com/efega/assay
+    docs: https://github.com/efega/assay#readme
+    cli: https://www.npmjs.com/package/assay-http
+    description: >
+      VS Code extension centred on response testing. Assertions are written as
+      `# @assert` comments, so a file carrying them still parses in clients that
+      do not implement them. Chained requests resolve their dependencies
+      automatically.
+
   kulala:
     name: kulala.nvim
     shortName: kulala
@@ -175,6 +191,20 @@ clients:
     repo: https://github.com/bayne/dot-http
     description: >
       Rust CLI with companion vim plugin.
+
+  assay-cli:
+    name: Assay CLI
+    shortName: Assay CLI
+    author: efega
+    type: cli
+    platform: CLI (Node.js)
+    language: TypeScript/Node.js
+    repo: https://github.com/efega/assay
+    docs: https://github.com/efega/assay/blob/main/docs/ci.md
+    description: >
+      npx assay-http. Runs every request in a file in order, sharing the chain
+      store and cookie session. Emits JUnit XML with one test case per
+      assertion, plus JSON. No configuration file and no runtime dependencies.
 
   http-request-in-editor:
     name: http-request-in-editor
